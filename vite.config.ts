@@ -2,9 +2,12 @@ import path from 'path';
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 
+// ★★★ GitHub Pages 必须加 base 路径 ★★★
+// 仓库名是 weight-ui-v2 → base: "/weight-ui-v2/"
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      base: '/weight-ui-v2/',   // ★ 必须加这一行 ★
       server: {
         port: 3000,
         host: '0.0.0.0',

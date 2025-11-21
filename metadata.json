@@ -1,0 +1,5 @@
+{
+  "name": "ProLoad V2.0",
+  "description": "High-fidelity embedded UI simulation for a Real-time Load Display system featuring multi-point calibration, dynamic safety thresholds, and industrial aesthetic.",
+  "requestFramePermissions": []
+}
